@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
