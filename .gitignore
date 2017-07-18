@@ -62,3 +62,5 @@ typings/
 *.user
 *.userosscache
 *.sln.docstates
+
+.vs/
