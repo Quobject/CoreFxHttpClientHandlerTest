@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "test": "nodemon --watch ./lib runjasmine.js",
-    "reload": "reload -d results report.html",
+    "test": "nodemon --watch ./lib ./spec/runjasmine.js",
+    "reload": "reload -d ./spec/results report.html",
     "compile": "tsc && node lib/index.js",
     "dev": "concurrently --kill-others \"tsc -w\" \"nodemon ./lib/index.js\"",
     "crunch": "concurrently --kill-others \"npm run dev\" \"npm run test\" \"npm run reload\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^7.0.18",
     "concurrently": "^3.4.0",
