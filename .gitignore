@@ -64,3 +64,5 @@ typings/
 *.sln.docstates
 
 .vs/
+
+lib
