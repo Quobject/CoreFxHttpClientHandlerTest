@@ -13,11 +13,11 @@ namespace CoreFxHttpClientHandlerTest
 
         public static async Task<bool> Run()
         {
-            var ignoreTlc = true;
+            var ignoreTls = true;
 
             using (var httpClientHandler = new HttpClientHandler())
             {
-                if (ignoreTlc)
+                if (ignoreTls)
                 {
                     httpClientHandler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => { return true; };
                 }
