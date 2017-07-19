@@ -10,6 +10,7 @@ describe('Config', () => {
     it('correct key paths', () => {
         expect(my_config_1.Config.TLS_KEY_FILENAME).toContain('.pem');
         expect(my_config_1.Config.TLS_CERT_FILENAME).toContain('.pem');
+        console.log(my_config_1.Config);
         expect(my_config_1.Config.PORT).toBeDefined();
         expect(my_config_1.Config.TLS_PORT).toBeDefined();
     });

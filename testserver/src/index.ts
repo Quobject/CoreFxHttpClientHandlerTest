@@ -11,7 +11,7 @@ const options: https.ServerOptions = {
   requestCert: true,
 };
 
-//console.log(options);
+console.log(options);
 
 const app = express();
 app.use(bodyParser.json()); // support json encoded bodies

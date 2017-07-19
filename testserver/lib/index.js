@@ -11,7 +11,7 @@ const options = {
     cert: fs.readFileSync(my_config_1.Config.TLS_CERT_FILENAME),
     requestCert: true,
 };
-//console.log(options);
+console.log(options);
 const app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
