@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreFxHttpClientHandlerTest", "CoreFxHttpClientHandlerTest.csproj", "{8AB04B55-10A1-4C45-BEA9-16E1150FE15C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreFxHttpClientHandlerTest", "CoreFxHttpClientHandlerTest.csproj", "{8AB04B55-10A1-4C45-BEA9-16E1150FE15C}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CoreFxHttpClientHandlerTest", "..\", "{9ECA3393-A2F3-43D9-93A9-865D7232335A}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -26,7 +26,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CoreFxHttpClientHandlerTest
 		SlnRelativePath = "..\..\CoreFxHttpClientHandlerTest\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "..\XUnitTestProject1\XUnitTestProject1.csproj", "{D46327AC-313C-4C5C-B462-460BA3E3695B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject1", "..\XUnitTestProject1\XUnitTestProject1.csproj", "{D46327AC-313C-4C5C-B462-460BA3E3695B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
